@@ -1,0 +1,50 @@
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  background-color: #088db5;
+  padding: 10px;
+  margin: 0;
+}
+
+html body {
+  padding: 0;
+  margin: 0;
+}
+
+nav ul a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul a:hover {
+  color: #a0c0c9;
+  transition: all 0.3s;
+}
+
+form {
+  padding: 10px;
+}
+
+form textarea {
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+form button {
+  width: 30%;
+  padding: 5px;
+  background: #088db5;
+  border: none;
+  border-radius: 2px;
+  color: white;
+  transition: all 0.2s;
+}
+
+form button:hover {
+  background: #08b8ee;
+}
+
+form button:active {
+  box-shadow: inset 3px 2px 15px -5px #252525;
+}
